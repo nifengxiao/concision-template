@@ -1,40 +1,27 @@
-# concision
-
-![Build](https://github.com/nifengxiao/concision/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/kotlin).
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the Plugin ID in the above README badges.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
+# concisionPlugins
 
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
-
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
-
-To keep everything working, do not remove `<!-- ... -->` sections. 
+concision专用插件
+当前插件：
+支持as版本:Android4.1+
 <!-- Plugin description end -->
 
-## Installation
+## 下载
+[ConcisionTemplate]()
 
-- Using IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "concision"</kbd> >
-  <kbd>Install Plugin</kbd>
-  
-- Manually:
+## 安装
+- 手动:
 
-  Download the [latest release](https://github.com/nifengxiao/concision/releases/latest) and install it manually using
+  下载完成后按照以下步骤进行安装
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
-
 ---
-Plugin based on the [IntelliJ Platform Plugin Template][template].
+## 使用
+![]()
 
-[template]: https://github.com/JetBrains/intellij-platform-plugin-template
+## 所用工具
+[intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template)
+
+## 参考
+- [MVPArmsTemplate](https://github.com/JessYanCoding/MVPArmsTemplate)
+- [AndroidStudio4.1 自定义模板](https://www.bigademo.com/2021/01/20/AndroidStudio%204.1%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1/index.html)

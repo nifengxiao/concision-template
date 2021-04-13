@@ -11,7 +11,7 @@ import java.io.File
 val concisionTemplate
     get() = template {
         revision = 1
-        name = "concision"
+        name = "concisionTemplate"
         description = "创建concision相关的mvvm文件"
         minApi = 9
         minBuildApi = 15
