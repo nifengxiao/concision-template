@@ -7,7 +7,7 @@ concision专用插件
 <!-- Plugin description end -->
 
 ## 下载
-[ConcisionTemplate]()
+[ConcisionTemplate](https://github.com/nifengxiao/concision-template/raw/master/plugins/ConcisionTemplate-1.0.0.jar)
 
 ## 安装
 - 手动:
@@ -17,7 +17,8 @@ concision专用插件
 
 ---
 ## 使用
-![]()
+![](https://github.com/nifengxiao/concision-template/blob/master/pic/%E8%AF%B4%E6%98%8E1.png?raw=true)
+![](https://github.com/nifengxiao/concision-template/blob/master/pic/%E8%AF%B4%E6%98%8E2.png?raw=true)
 
 ## 所用工具
 [intellij-platform-plugin-template](https://github.com/JetBrains/intellij-platform-plugin-template)
