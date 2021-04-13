@@ -1,31 +1,30 @@
 package other.concision.activity.src.app_package
 
-fun concisionFragmentKt(
+fun concisionActivityKt(
         packageName: String,
         functionDir:String,
         pageName:String,
-        fragmentLayoutName:String,
-        functionPackageName:String
+        activityLayoutName:String,
 )="""
 package ${packageName}.ui.${functionDir}
 
 import android.os.Bundle
 import ${packageName}.R 
-import com.creator.config.app.base.BaseFragment
-import ${packageName}.databinding.Fragment${pageName}Binding
+import com.creator.config.app.base.BaseActivity
+import ${packageName}.databinding.Activity${pageName.toLowerCase().capitalize()}Binding
 
-class ${pageName}Fragment: BaseFragment<${pageName}ViewModel, Fragment${pageName}Binding>(){
+class ${pageName}Activity: BaseActivity<${pageName}ViewModel, Activity${pageName.toLowerCase().capitalize()}Binding>(){
 
     override fun layoutId(): Int {
-        return R.layout.${fragmentLayoutName}
+        return R.layout.${activityLayoutName}
     }
 
     override fun initView(savedInstanceState: Bundle?) {
         mDatabind.click = ProxyClick()
     }
     
-    override fun lazyLoadData() {
-        super.lazyLoadData()
+    override fun createObserver() {
+
     }
     
     inner class ProxyClick {

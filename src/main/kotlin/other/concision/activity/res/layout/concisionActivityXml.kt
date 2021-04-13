@@ -1,9 +1,9 @@
 package other.concision.activity.res.layout
 
-fun concisionFragmentXml(
+fun concisionActivityXml(
         packageName: String,
         pageName: String,
-        functionDir:String
+        functionDir: String
 ) = """
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
@@ -11,7 +11,7 @@ fun concisionFragmentXml(
     <data>
          <variable
             name="click"
-            type="${packageName}.ui.${functionDir}.${pageName}Fragment.ProxyClick" />
+            type="${packageName}.ui.${functionDir}.${pageName}Activity.ProxyClick" />
             
          <variable
             name="vm"
@@ -22,7 +22,7 @@ fun concisionFragmentXml(
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="${packageName}.ui.${functionDir}.${pageName}Fragment">
+        tools:context="${packageName}.ui.${functionDir}.${pageName}Activity">
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

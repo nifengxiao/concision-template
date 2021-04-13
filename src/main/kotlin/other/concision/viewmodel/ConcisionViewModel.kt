@@ -1,4 +1,4 @@
-package other.concision.activity.src.app_package
+package other.concision.viewmodel
 
 fun concisionViewModel(
         packageName: String,

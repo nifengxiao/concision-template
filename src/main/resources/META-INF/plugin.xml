@@ -2,7 +2,7 @@
     <!-- 包名-->
     <id>com.github.nifengxiao.concision</id>
     <!-- 插件名-->
-    <name>concision</name>
+    <name>concisionTemplate</name>
     <!--  提供者  -->
     <vendor>yuanfeng</vendor>
 
@@ -28,4 +28,5 @@
     <extensions defaultExtensionNs="com.android.tools.idea.wizard.template">
         <wizardTemplateProvider implementation="other.SamplePluginTemplateProviderImpl" />
     </extensions>
+
 </idea-plugin>

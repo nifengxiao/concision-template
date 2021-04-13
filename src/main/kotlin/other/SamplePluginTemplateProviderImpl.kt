@@ -10,9 +10,6 @@ import other.concision.activity.concisionTemplate
  */
 class SamplePluginTemplateProviderImpl : WizardTemplateProvider(){
     override fun getTemplates(): List<Template> = listOf(
-            // activity的模板
             concisionTemplate
-//            // fragment的模板
-//            mvvmFragmentTemplate
     )
 }

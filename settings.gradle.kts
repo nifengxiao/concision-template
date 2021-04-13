@@ -1,1 +1,1 @@
-rootProject.name = "concision"
+rootProject.name = "ConcisionTemplate"
